@@ -67,7 +67,3 @@ TEST_CASE("end of the Game")
     CHECK_NOTHROW(game.printStats());
     
 }
-
-
-
-

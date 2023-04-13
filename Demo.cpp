@@ -20,8 +20,7 @@ int main() {
   // Create two players with their names 
    Player p1("Alice");
    Player p2("Bob");
-
-   Game game(p1,p2); 
+   Game game(p1,p2);
    for (int i=0;i<5;i++) {
     game.playTurn();
    }
